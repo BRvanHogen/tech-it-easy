@@ -1,0 +1,41 @@
+body {
+    background-color: aquamarine;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: auto;
+    height: auto;
+}
+
+.to-sell {
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+}
+
+.total-sold {
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+}
+
+.total-revenue {
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+}
+
+#number-to-sell {
+    color: red;
+}
+
+#total-intended-revenue-in-currency {
+    color: blue;
+}
+
+#total-sold-in-currency {
+    color: green;
+}
